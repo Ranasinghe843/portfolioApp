@@ -65,6 +65,7 @@ interface Experience {
   category: string;
   markdownFile?: string;
   logoUrl?: string;
+  isHovered?: boolean;
 }
 
 @Component({

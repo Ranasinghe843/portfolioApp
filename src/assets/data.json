@@ -120,6 +120,7 @@
       "institution": "Purdue University",
       "received": "Dec 2024",
       "description": "Artificial Intelligence and Machine Learning Concentration<br>Certificate in Entrepreneurship and Innovation",
+      "markdownFile": "assets/markdown/google-data-analytics.md",
       "logoUrl": "https://images.squarespace-cdn.com/content/v1/623126b50d2dfb281caaafd3/1672873159780-DMNEXJD6Q07IVOXSC4QM/Purdue-University-logo.png?format=750w"
     },
     {
@@ -128,6 +129,23 @@
       "received": "July 2024",
       "markdownFile": "assets/markdown/google-data-analytics.md",
       "logoUrl": "assets/images/google-coursera.png"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Research Paper",
+      "issuer": "International Conference on AI",
+      "date": "June 2023",
+      "description": "Awarded for the best research paper on machine learning algorithms.",
+      "markdownFile": "assets/markdown/best-research-paper.md",
+      "imageUrl": "assets/images/award1.png"
+    },
+    {
+      "title": "Best Research Paper",
+      "issuer": "International Conference on AI",
+      "date": "June 2023",
+      "description": "Awarded for the best research paper on machine learning algorithms.",
+      "imageUrl": "assets/images/award1.png"
     }
   ],
   "contacts": {
