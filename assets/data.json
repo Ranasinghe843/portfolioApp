@@ -1,65 +1,74 @@
 {
   "about": {
-    "description": "Hey, I'm a Computer Engineering senior at Purdue University who's really into Machine Learning and all things robotics. Right now, I'm on the lookout for gigs in Software Engineering, Data Science/Analytics, or anything that involves playing around with robots and embedded systems. I've picked up a mix of skills from messing around on my own and diving deep into some cool research projects. When I'm not buried in code, you'll catch me at the karting track, binge-watching movies, or geeking out over my coin collection. Check out my portfolio to see what I've been up to in the tech world!",
+    "description": "Hey, I am a Master’s student in Computer Engineering, currently strengthening my foundation in hardware design and systems. During my undergraduate studies, I concentrated on software development and machine learning, and toward the end of my degree, I shifted my focus toward controls and robotics—an intersection that allows me to combine both software expertise and hardware knowledge.<br><br>Outside of academics, I enjoy working on independent projects that broaden my technical skills. I also pursue personal interests such as coin collecting and language learning, which reflect my curiosity and commitment to continuous growth.<br><br>Right now, I am looking to get an industrial experience focused on the hardware side and therefore I am looking for a Spring/Summer internship for next year",
     "linkedin": "https://www.linkedin.com/in/sxmithr/",
     "github": "https://github.com/Ranasinghe843",
     "resume": "assets/samitha_ranasinghe_resume.pdf"
   },
   "projects": [
     {
-      "name": "College Based Task Management System with Rails",
-      "description": "A task management system for college students to manage their assignments, projects and exams. Is being built using Ruby on Rails and AWS",
-      "imageUrl": "assets/images/6282f519081a58feae9b1fc4_Task-management-vs-project-management.jpeg"
+      "name": "Robot Cello - VIP",
+      "description": "I set up a gazebo simulation environment for a robot arm to play the cello using ROS2 and MoveIt2 and then built a position controller for the arm to follow published end effector trajectories. I then processed Mocap data of a human playing the cello to generate the trajectories for the robot arm to follow.",
+      "imageUrl": "assets/images/robot_cello.png",
+      "link": "https://github.com/Ranasinghe843/Robot_Cello_Sim"
+    },
+    {
+      "name": "GitHub Workflows Security Vulnerability Tool - VIP",
+      "description": "I co-led a team investigating vulnerabilities in GitHub Actions CI/CD workflows and evaluating the scope of existing security tools in industry. Designed and implemented a custom analysis tool that uncovered previously hidden vulnerabilities in a significant number of repositories.",
+      "imageUrl": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*M4PfgTqruMi0HnTzC2jFRA.png",
+      "link": "https://github.com/Ranasinghe843/yaml_checker"
     },
     {
       "name": "This Website (Angular Portfolio)",
       "description": "The website is built using Angular and styled with Tailwind CSS to showcase off my experiences, skills and projects while giving me a learning experience of AngularJS",
-      "imageUrl": "assets/images/Screenshot_2023-09-26_18-27-53.png",
+      "imageUrl": "assets/images/portfolio.png",
       "link": "https://ranasinghe843.github.io/portfolioApp"
-    },
-    {
-      "name": "Face Detection with OpenCV through Arduino",
-      "description": "Implemented an algorithm to track a face across a screen and improving it to recognize the particular face. Researching on using an Arduino board to run the OpenCV algorithm to use an external camera to follow a face.",
-      "imageUrl": "assets/images/FRTS6EJHR3EHRAM.jpg"
     },
     {
       "name": "Custom Evaluation Board with ESP-32",
       "description": "Designed, fabricated and wrote firmware for a custom evaluation board using the ESP-32 micro-controller and Arduino Mega footprint",
-      "imageUrl": "assets/images/esp32-devkitC-v4-pinout.png"
+      "imageUrl": "assets/images/esp32.png"
     },
     {
       "name": "Deep Learning Q&A Chatbot using Tensorflow",
       "description": "A story-based Q&A bot based on the BaBi dataset using basic NLP through Tensorflow. An end-to-end memory-based recurrent neural network implementation with multiple layers.",
-      "imageUrl": "assets/images/hero-chatbot-ux-design-product-management_0.jpg",
+      "imageUrl": "assets/images/quest.jpg",
       "link": "https://github.com/Ranasinghe843/quest-the-chatbot"
     },
     {
       "name": "Autonomous Drone Controls Algorithm - VIP",
       "description": "I worked with a team in integrating the computer vision algorithm in the controls algorithm for autonoumous navigation of a drone through a miniature city. I also worked on setting up a simulation of the miniature city as well as designing and 3D printing propellor guards",
-      "imageUrl": "assets/images/SinWave1.png",
+      "imageUrl": "assets/images/drone_video.png",
       "link": "https://github.com/Ranasinghe843/VIP-Documentation"
     },
     {
       "name": "Conference Paper titled 'A Self-Adapting Wheel System for Space Exploration Rovers'",
       "description": "Co-authored a paper on an efficient wheel system for space exploration rovers that would reduce instances of slipping and sinkage and presented it at the International Astronautical Congress 2021 in Dubai, UAE.",
-      "imageUrl": "assets/images/Screenshot_2023-09-26_18-15-32.png"
+      "imageUrl": "assets/images/wheel.png"
     },
     {
       "name": "1971 Ford Escort Mk1 Restoration",
       "description": "Got a non-working classic car working after a complete teardown and rebuild of the engine with a focus on the carburettor as well as the electical systems",
-      "imageUrl": "assets/images/IMG_3634.jpeg",
-      "markdownFile": "assets/markdown/google-data-analytics.md"
+      "imageUrl": "assets/images/ford_escort.jpeg"
     }
   ],
   "experiences": [
     {
+      "position": "Graduate Teaching Assistant",
+      "company": "Vertically Integrated Projects",
+      "duration": "Jan 2025 - Present",
+      "category": "campus",
+      "logoUrl": "assets/images/vip.jpg",
+      "description": "I support four cross-disciplinary VIP teams by handling course operations — assignment schedules, deliverable timelines, rubrics, and progress tracking — and ensuring submissions meet program standards. I also serve as the technical mentor for the RoboMaster team, advising on system integration, controls, and debugging, and reviewing designs and code to keep milestones on track."
+    },
+    {
       "position": "Software Engineering Intern",
       "company": "UrsaLeo INC",
-      "duration": "Feb 2024 - Present",
+      "duration": "Feb 2024 - April 2024",
       "category": "industrial",
       "markdownFile": "assets/markdown/ursa-leo.md",
       "logoUrl": "https://pbs.twimg.com/profile_images/1427249672557670405/ACurm2N8_400x400.jpg",
-      "description": "I am working with NVIDIA Omniverse Toolkit to build the graphical components to interact with Digital Twins through Universal Scene Description applications. Building on the Model-View-Controller methodology in NVIDIA GDN"
+      "description": "I worked with NVIDIA Omniverse Toolkit to build the graphical components to interact with Digital Twins through Universal Scene Description applications. I built on the Model-View-Controller methodology in NVIDIA GDN"
     },
     {
       "position": "Machine Learning Intern",
@@ -67,7 +76,7 @@
       "duration": "May 2023 - Dec 2023",
       "category": "industrial",
       "markdownFile": "assets/markdown/kaya.md",
-      "logoUrl": "https://media.licdn.com/dms/image/D560BAQE_SsQndwv80Q/company-logo_200_200/0/1693405135975/kaya_ai_logo?e=2147483647&v=beta&t=CECseZl6-7XJgcG9nZ1fdkfbas6kGYTjwGndXmnlhJw",
+      "logoUrl": "assets/images/kaya.png",
       "description": "I worked on various ML concepts along with full stack development in the FERN stack of Firebase, Express, React and Node. Right now I am integrating a custom Llama2 model with a Vector DB through LangChain for help and context through a chatbot. I set up several CI/CD pipelines with Kubernetes Engine in GCP to publish apps and python services and configured services using Pub-Sub and Cloud Functions to transcribe and extract contexts through public LLMs."
     },
     {
@@ -82,23 +91,29 @@
     {
       "position": "Undergraduate Teaching Assistant",
       "company": "Purdue ECE",
-      "duration": "Aug 2022 - Present",
-      "category": "on-campus",
-      "logoUrl": "https://media.licdn.com/dms/image/C560BAQFFhTOSK0IkUA/company-logo_200_200/0/1630640689213/purdue_ece_logo?e=2147483647&v=beta&t=_bofz_2BpfZlz4so3tmgMZeepha2On-lAj2bBqKaDHM",
-      "description": "I held office hours, graded assignments and exams, and conducted lab sessions"
+      "duration": "Aug 2022 - Dec 2024",
+      "category": "campus",
+      "logoUrl": "https://engineering.purdue.edu/ECE/Communications/EFECE_V-Full-RGB.jpg",
+      "description": "I supported several undergraduate course by holding regular office hours to guide students through labs and homework, designing and grading assignments and exams, and developing Python-based autograders to streamline and standardize evaluation. Improved both turnaround time and consistency in grading while providing students with timely, detailed feedback."
     }
   ],
   "skills": [
     { "name": "Python", "url": "https://www.svgrepo.com/show/452091/python.svg" },
     { "name": "C Language", "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" },
-    { "name": "Google Cloud Products", "url": "https://www.svgrepo.com/show/353805/google-cloud.svg" },
+    { "name": "C++", "url": "https://cdn.worldvectorlogo.com/logos/c.svg" },
+    { "name": "GitHub", "url": "https://www.svgrepo.com/show/512317/github-142.svg" },
+    { "name": "ROS2", "url": "assets/images/ros2.svg" },
+    { "name": "Gazebo", "url": "assets/images/gazebo.svg" },
+    { "name": "MATLAB", "url": "https://www.svgrepo.com/show/373830/matlab.svg" },
+    { "name": "LaTeX", "url": "https://www.svgrepo.com/show/377983/latex.svg" },
+    { "name": "SystemVerilog", "url": "https://www.svgrepo.com/show/374163/verilog.svg" },
+    { "name": "Linux", "url": "https://www.svgrepo.com/show/373280/linux-opened.svg" },
+    { "name": "Questasim", "url": "assets/images/questasim.svg" },
     { "name": "Tensor Flow", "url": "https://www.svgrepo.com/show/354440/tensorflow.svg" },
     { "name": "OpenCV", "url": "https://www.svgrepo.com/show/354139/opencv.svg" },
-    { "name": "LangChain", "url": "https://www.mlq.ai/content/images/2023/06/Screenshot-2023-06-15-at-8.15.36-PM.png" },
-    { "name": "Pinecone", "url": "https://seeklogo.com/images/P/pinecone-icon-logo-AF8B5B7F96-seeklogo.com.png" },
     { "name": "Flask", "url": "https://www.svgrepo.com/show/508915/flask.svg" },
     { "name": "Firebase", "url": "https://www.svgrepo.com/show/373595/firebase.svg" },
-    { "name": "Swift", "url": "https://www.svgrepo.com/show/452110/swift.svg" },
+    { "name": "Google Cloud Products", "url": "https://www.svgrepo.com/show/353805/google-cloud.svg" },
     { "name": "HTML", "url": "https://www.svgrepo.com/show/452228/html-5.svg" },
     { "name": "CSS", "url": "https://www.svgrepo.com/show/452185/css-3.svg" },
     { "name": "JavaScript", "url": "https://www.svgrepo.com/show/353925/javascript.svg" },
@@ -107,19 +122,26 @@
     { "name": "TypeScript", "url": "https://www.svgrepo.com/show/354478/typescript-icon.svg" },
     { "name": "React", "url": "https://www.svgrepo.com/show/452092/react.svg" },
     { "name": "GraphQL", "url": "https://www.svgrepo.com/show/373644/graphql.svg" },
-    { "name": "Jest", "url": "https://www.svgrepo.com/show/373700/jest.svg" },
     { "name": "Node.js", "url": "https://www.svgrepo.com/show/354118/nodejs.svg" },
     { "name": "Arduino", "url": "https://www.svgrepo.com/show/353423/arduino.svg" },
     { "name": "SQL", "url": "https://www.svgrepo.com/show/331760/sql-database-generic.svg" },
-    { "name": "Vite", "url": "https://www.svgrepo.com/show/374167/vite.svg" },
-    { "name": "Jira", "url": "https://www.svgrepo.com/show/353935/jira.svg" }
+    { "name": "Jira", "url": "https://www.svgrepo.com/show/353935/jira.svg" },
+    { "name": "Docker", "url": "https://www.svgrepo.com/show/452192/docker.svg" }
   ],
   "educations": [
+    {
+      "degree": "Master of Science in Computer Engineering",
+      "institution": "Purdue University",
+      "received": "Dec 2026",
+      "description": "Controls & Hardware Design Concentration<br>Teaching Assistant in ECE and Vertically Integrated Projects (VIP)",
+      "markdownFile": "assets/markdown/google-data-analytics.md",
+      "logoUrl": "https://images.squarespace-cdn.com/content/v1/623126b50d2dfb281caaafd3/1672873159780-DMNEXJD6Q07IVOXSC4QM/Purdue-University-logo.png?format=750w"
+    },
     {
       "degree": "Bachelor of Science in Computer Engineering",
       "institution": "Purdue University",
       "received": "Dec 2024",
-      "description": "Artificial Intelligence and Machine Learning Concentration<br>Certificate in Entrepreneurship and Innovation",
+      "description": "AI/ML & Controls Concentration<br>Certificate in Entrepreneurship and Innovation",
       "markdownFile": "assets/markdown/google-data-analytics.md",
       "logoUrl": "https://images.squarespace-cdn.com/content/v1/623126b50d2dfb281caaafd3/1672873159780-DMNEXJD6Q07IVOXSC4QM/Purdue-University-logo.png?format=750w"
     },
@@ -138,13 +160,6 @@
       "date": "June 2023",
       "description": "Awarded for the best research paper on machine learning algorithms.",
       "markdownFile": "assets/markdown/best-research-paper.md",
-      "imageUrl": "assets/images/award1.png"
-    },
-    {
-      "title": "Best Research Paper",
-      "issuer": "International Conference on AI",
-      "date": "June 2023",
-      "description": "Awarded for the best research paper on machine learning algorithms.",
       "imageUrl": "assets/images/award1.png"
     }
   ],
