@@ -109,7 +109,6 @@
     { "name": "SystemVerilog", "url": "https://www.svgrepo.com/show/374163/verilog.svg" },
     { "name": "Linux", "url": "https://www.svgrepo.com/show/373280/linux-opened.svg" },
     { "name": "Questasim", "url": "assets/images/questasim.svg" },
-    { "name": "Tensor Flow", "url": "https://www.svgrepo.com/show/354440/tensorflow.svg" },
     { "name": "OpenCV", "url": "https://www.svgrepo.com/show/354139/opencv.svg" },
     { "name": "Flask", "url": "https://www.svgrepo.com/show/508915/flask.svg" },
     { "name": "Firebase", "url": "https://www.svgrepo.com/show/373595/firebase.svg" },
