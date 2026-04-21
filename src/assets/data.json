@@ -3,37 +3,34 @@
     "description": "Hey, I am a Master’s student in Computer Engineering, currently strengthening my foundation in hardware design and systems. During my undergraduate studies, I concentrated on software development and machine learning, and toward the end of my degree, I shifted my focus toward controls and robotics—an intersection that allows me to combine both software expertise and hardware knowledge.<br><br>Outside of academics, I enjoy working on independent projects that broaden my technical skills. I also pursue personal interests such as coin collecting and language learning, which reflect my curiosity and commitment to continuous growth.<br><br>Right now, I am looking to get an industrial experience focused on the hardware side and therefore I am looking for a Summer/Fall internship",
     "linkedin": "https://www.linkedin.com/in/sxmithr/",
     "github": "https://github.com/Ranasinghe843",
-    "resume": "assets/samitha_ranasinghe_resume.pdf"
+    "resume": "assets/Resume.pdf"
   },
   "projects": [
     {
       "name": "Robot Cello - VIP",
       "description": "I set up a gazebo simulation environment for a robot arm to play the cello using ROS2 and MoveIt2 and then built a position controller for the arm to follow published end effector trajectories. I then processed Mocap data of a human playing the cello to generate the trajectories for the robot arm to follow.",
       "imageUrl": "assets/images/robot_cello.png",
+      "markdownFile": "assets/markdown/robot-cello.md",
       "link": "https://github.com/Ranasinghe843/Robot_Cello_Sim"
     },
     {
       "name": "GitHub Workflows Security Vulnerability Tool - VIP",
       "description": "I co-led a team investigating vulnerabilities in GitHub Actions CI/CD workflows and evaluating the scope of existing security tools in industry. Designed and implemented a custom analysis tool that uncovered previously hidden vulnerabilities in a significant number of repositories.",
       "imageUrl": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*M4PfgTqruMi0HnTzC2jFRA.png",
+      "markdownFile": "assets/markdown/github-vulnerability.md",
       "link": "https://github.com/Ranasinghe843/yaml_checker"
     },
     {
       "name": "This Website (Angular Portfolio)",
       "description": "The website is built using Angular and styled with Tailwind CSS to showcase off my experiences, skills and projects while giving me a learning experience of AngularJS",
       "imageUrl": "assets/images/portfolio.png",
+      "markdownFile": "assets/markdown/portfolio.md",
       "link": "https://ranasinghe843.github.io/portfolioApp"
     },
     {
       "name": "Custom Evaluation Board with ESP-32",
       "description": "Designed, fabricated and wrote firmware for a custom evaluation board using the ESP-32 micro-controller and Arduino Mega footprint",
       "imageUrl": "assets/images/esp32.png"
-    },
-    {
-      "name": "Deep Learning Q&A Chatbot using Tensorflow",
-      "description": "A story-based Q&A bot based on the BaBi dataset using basic NLP through Tensorflow. An end-to-end memory-based recurrent neural network implementation with multiple layers.",
-      "imageUrl": "assets/images/quest.jpg",
-      "link": "https://github.com/Ranasinghe843/quest-the-chatbot"
     },
     {
       "name": "Autonomous Drone Controls Algorithm - VIP",
@@ -109,7 +106,7 @@
     { "name": "SystemVerilog", "url": "https://www.svgrepo.com/show/374163/verilog.svg" },
     { "name": "Linux", "url": "https://www.svgrepo.com/show/373280/linux-opened.svg" },
     { "name": "Questasim", "url": "assets/images/questasim.svg" },
-    { "name": "Tensor Flow", "url": "https://www.svgrepo.com/show/354440/tensorflow.svg" },
+    { "name": "PyTorch", "url": "https://www.svgrepo.com/show/354240/pytorch.svg" },
     { "name": "OpenCV", "url": "https://www.svgrepo.com/show/354139/opencv.svg" },
     { "name": "Flask", "url": "https://www.svgrepo.com/show/508915/flask.svg" },
     { "name": "Firebase", "url": "https://www.svgrepo.com/show/373595/firebase.svg" },
